@@ -1,15 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 
 const Header = () => {
     return (
-        <div className='bg-lime-700 p-6 text-right'>
-            <a className='mr-3 text-yellow-100 text-100' href="">Home</a>
-            <a className='mr-3 text-yellow-100 text-100' href="">Home</a>
-            <a className='mr-3 text-yellow-100 text-100' href="">about</a>
-            <a className='mr-3 text-yellow-100 text-100' href="">product</a>
+    <div>
+        <div className='p-6   '>
+            <Link className='mr-6 text-violet-900 font-bold text-100' to="/home">HOME</Link>
+            <Link className='mr-6 text-violet-900 font-bold text-100' to="/review">REVIEWS</Link>
+            <Link className='mr-6 text-violet-900 font-bold text-100' to="/dashbord">DASHBOARD</Link>
+            <Link className='mr-6 text-violet-900 font-bold text-100' to="/blogs">BLOGS</Link>
+            <Link className='mr-6 text-violet-900 font-bold text-100' to="/about">ABOUT</Link>
         </div>
+       
+    </div>
     );
 };
 
