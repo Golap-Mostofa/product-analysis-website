@@ -32,11 +32,9 @@ const Home = () => {
                 </div>
             </div>
 
-
             <h1 className='text-4xl text-indigo-900 font-sans font-bold mt-20'>castomar reviwes</h1>
 
             <div className='grid grid-cols-3 gap-4 mt-12'>
-            
                 {
                     comment.map(user=> <Comment
                     key={user.id}
