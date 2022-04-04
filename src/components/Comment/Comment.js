@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import useComments from '../../hooks/useComments';
+
 
 const Comment = ({user}) => {
 
@@ -16,8 +16,12 @@ const Comment = ({user}) => {
                 
             </div>
             <p className='mt-8'>Look cool. I am interested in trying nothing earbuds. So many options. Im using master and dynamic mw07+ at the moment. I got my mw07+ under $100 brand new.</p>
-        </div> 
+            
+        </div>
+       
+       
       </>
+      
     );
 };
 

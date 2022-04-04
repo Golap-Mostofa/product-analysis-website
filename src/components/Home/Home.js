@@ -1,6 +1,8 @@
 import React from 'react';
 import useComments from '../../hooks/useComments';
 import Comment from '../Comment/Comment';
+import CommentRe from '../CommentRe/CommentRe';
+
 
 
 
@@ -9,7 +11,7 @@ const Home = () => {
     const [comment,setComment] = useComments()
 
     return (
-        <>
+        <div>
             <div className='flex justify-between  m-6'>
                 <div className='mt-12'>
                     <h1 className='text-6xl font-bold text-emerald-600 mt-6'> my head phone center</h1>
@@ -36,13 +38,15 @@ const Home = () => {
 
             <div className='grid grid-cols-3 gap-4 mt-12'>
                 {
-                    comment.map(user=> <Comment
+                    comment.slice(0,3).map(user=> <Comment
                     key={user.id}
                     user={user}
                     ></Comment>)
                 }
+           
             </div>
-       </>
+            <CommentRe></CommentRe>
+       </div>
         
     );
 };

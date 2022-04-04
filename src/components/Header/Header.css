@@ -1,0 +1,21 @@
+.link{
+  text-decoration: none;  
+  padding: 12px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+
+}
+.link{
+  text-decoration: none;  
+  padding: 12px;
+  font-size: 15px;
+  color: rgb(77, 75, 93);
+  font-weight: 600;
+
+}
+.links{
+    background-color: lightpink;
+    height: 50px;
+    padding: 10px;
+}
