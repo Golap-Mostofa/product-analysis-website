@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import {  StarIcon } from '@heroicons/react/solid'
 
 const Comment = ({user}) => {
 
@@ -16,6 +16,12 @@ const Comment = ({user}) => {
                 
             </div>
             <p className='mt-8'>Look cool. I am interested in trying nothing earbuds. So many options. Im using master and dynamic mw07+ at the moment. I got my mw07+ under $100 brand new.</p>
+            <p className='w-12 h-12 text-orange-400 flex'>
+              <StarIcon></StarIcon>
+              <StarIcon></StarIcon>
+              <StarIcon></StarIcon>
+            
+            </p>
             
         </div>
        
