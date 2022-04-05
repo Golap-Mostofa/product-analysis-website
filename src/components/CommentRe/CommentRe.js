@@ -6,7 +6,7 @@ const CommentRe = () => {
     const navigate = useNavigate()
 
     const shoComent=()=>{
-        const path = "review"
+        const path = "/review"
         navigate(path)
     }
 
