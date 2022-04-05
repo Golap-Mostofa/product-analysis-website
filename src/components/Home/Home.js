@@ -14,7 +14,7 @@ const Home = () => {
         <div>
             <div className='flex justify-between  m-6'>
                 <div className='mt-12'>
-                    <h1 className='text-6xl font-bold text-emerald-600 mt-6'> my head phone center</h1>
+                    <h1 className='text-6xl font-bold text-fuchsia-800 mt-6'> my head phone center</h1>
                     <h1 className='text-6xl font-bold text-indigo-700 mt-8'> woasame head phone </h1>
 
                     <p className='text-center mt-10 w-50 text-gray-700  font-sans'>
